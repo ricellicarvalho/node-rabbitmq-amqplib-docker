@@ -42,9 +42,12 @@ export default class CandleMessageChannel {
                 const candleObj = JSON.parse(msg.content.toString())
                 console.log('Message received')
                 console.log(candleObj)
+                // RabbitMQ information that the message has been consumed so it can dequeue
                 this._channel.ack(msg)
 
                 const candle: Candle = candleObj
+
+                // Save the candle in MongoDB
                 await this._candleCtrl.save(candle)
                 console.log('Candle saved to database')
                 this._io.emit(`${process.env.SOCKET_EVENT_NAME}`, candle)
