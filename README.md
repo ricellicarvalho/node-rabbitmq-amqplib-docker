@@ -47,4 +47,4 @@ This project is under the MIT license. See file [LICENSE](LICENSE.md) for more d
 
 ---
 
-Made with ♥ by Ricelli M. Carvalho :wave:
+Made with ♥ by Ricelli Carvalho :wave:
