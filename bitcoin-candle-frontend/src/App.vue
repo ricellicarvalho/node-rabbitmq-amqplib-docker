@@ -16,7 +16,8 @@ import CandleStore from './store/modules/CandleStore'
 import Candle from './models/Candle'
 @Options({
   components: {
-    Header
+    Header,
+    CandleStickChart
   },
 })
 export default class App extends Vue {
