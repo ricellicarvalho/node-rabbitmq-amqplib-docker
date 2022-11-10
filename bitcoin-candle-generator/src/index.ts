@@ -18,6 +18,7 @@ const generateCandles = async () => {
 
   if (messageChannel) {
     while (true) {
+      //Loop to calculate the number of iterations to generate a 5 (five) minute candle
       const loopTimes = Period.FIVE_MINUTE / Period.TEN_SECONDS
       const candle = new Candle('BTC', new Date())
 
