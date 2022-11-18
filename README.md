@@ -7,8 +7,6 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">  
 </p>
 
-<br>
-
 ### **Preview the first application**
 
 https://user-images.githubusercontent.com/38559002/202751117-d070dfee-0eb3-4254-985a-ab9197e3266f.mp4
