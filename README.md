@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/38559002/202751117-d070dfee-0eb3-4254-
 
 https://user-images.githubusercontent.com/38559002/202749167-14683b87-18c6-4e15-9b55-169e68225756.mp4
 
-## ?? Technologies
+## 🧪 Technologies
 
 This project was developed with the following technologies:
 
@@ -29,7 +29,7 @@ This project was developed with the following technologies:
 - [Socket.IO](https://socket.io/)
 - [Docker](https://www.docker.com/)
 
-## ?? How to run
+## 🛠 Getting started
 
 There are 2 applications in the project, being necessary to enter each one separately to run:
   * bitcoin-candle-generator - **RabbitMQ message publisher**
@@ -69,16 +69,6 @@ $ yarn start
 
 A RabbitMQ client can be accessed at [`http://localhost:15672`](http://localhost:15672) with username and password: **admin/admin**
 
-<p align="center">
-  <img alt="" src=".github/rabbitmq_1.png" />
-</p>
-
-<br /><br />
-
-<p align="center">
-  <img alt="" src=".github/rabbitmq_2.png" />
-</p>
-
 ### **Running the second application**
 ```bash
 # Enter the second application
@@ -103,11 +93,7 @@ $ yarn start
 
 **To query the data in the database you can install Studio 3T: The Professional Client, IDE and GUI for MongoDB**[ Download Studio 3T](https://studio3t.com/)
 
-<p align="center">
-  <img alt="" src=".github/mongo_client_1.png" />
-</p>
-
-## ?? Project
+## 🚀 Project
 
 This project consists of two applications that communicate asynchronously through the RabbitMQ messaging system and consequently save the messages in the MongoDB database.
 
@@ -115,10 +101,10 @@ The first application (bitcoin-candle-generator) is a script responsible for mak
 
 The second application (bitcoin-candle-api-with-mongodb) is an API that will read/consume the messages produced by the script in RabbitMQ and save them in MongoDB. Whenever a message is consumed the API will also issue a notification via Web Socket. These Web Socket notifications can be received and used by a third frontend application.
 
-## :memo: License
+## 📝  License
 
 This project is under the MIT license. See file [LICENSE](LICENSE.md) for more details.
 
 ---
 
-<p align="center">Made with ? by Ricelli M. Carvalho</p>
+<p align="center">Made with 💜 by Ricelli M. Carvalho</p>
